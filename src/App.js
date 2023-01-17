@@ -19,7 +19,7 @@ export default function App() {
         zoom: '2',
       }}
     >
-      <div>Generated color: {hex}</div>
+      <h1>Generated color: {hex}</h1>
       <button onClick={generateRandomColor}>Generate</button>
     </div>
   );
