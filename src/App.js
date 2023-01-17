@@ -14,7 +14,7 @@ export default function App() {
       style={{
         height: '100vh',
         width: '100vw',
-        backgroundColor: `${hex}`,
+        backgroundColor: hex,
         overflow: 'hidden',
         zoom: '2',
       }}
