@@ -10,17 +10,19 @@ export default function App() {
   };
 
   return (
-    <div
-      style={{
-        height: '100vh',
-        width: '100vw',
-        backgroundColor: hex,
-        overflow: 'hidden',
-        zoom: '2',
-      }}
-    >
-      <div>Generated Color: {hex}</div>
+    <>
+      <div
+        style={{
+          height: '100vh',
+          width: '100vw',
+          backgroundColor: hex,
+          overflow: 'hidden',
+          // zoom: '2',
+        }}
+      >
+        <div>Generated Color: {hex}</div>
+      </div>
       <button onClick={generateRandomColor}>Generate</button>
-    </div>
+    </>
   );
 }
