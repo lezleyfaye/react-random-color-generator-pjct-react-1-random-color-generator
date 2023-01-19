@@ -21,9 +21,6 @@ export default function App() {
     >
       <div>
         Generated Color: {hex}
-        {generateRandomColor}
-      </div>
-      <div>
         <button onClick={generateRandomColor}>Generate</button>
       </div>
     </div>
