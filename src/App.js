@@ -2,7 +2,7 @@ import './App.css';
 import { useState } from 'react';
 
 export default function App() {
-  const [hex, setHex] = useState('');
+  const [hex, setHex] = useState('#cc1a1a');
   const generateRandomColor = () => {
     const randomColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
 
@@ -13,11 +13,9 @@ export default function App() {
     <>
       <div
         style={{
-          height: '100vh',
-          width: '100vw',
+          height: '50vh',
+          width: '50vw',
           backgroundColor: hex,
-          overflow: 'hidden',
-          // zoom: '2',
         }}
       >
         <div>Generated Color: {hex}</div>
